@@ -1,4 +1,4 @@
-== README ==
+# Twitter-kiwi #
 
 (Formatted README file can be read here: https://gist.github.com/kattybilly/27bfd6a4bb6939aac9bdbba881121aec)
 
@@ -15,7 +15,7 @@ application up and running.
 
 * Uses sqlite3 which ships as default database with Rails, you can easily migrate to a DB of your choice from Step1 config. As intension here was to have a clean/extensible Backend Code and DB choice wasn't a priority.
 
-***Projects Structure***
+## Projects Structure ##
 ```
 app/ ->
 /api - contains exposed APIs
@@ -27,7 +27,7 @@ app/ ->
 /db/seed - Contains pre-loaded data that will be dumped in db as soon as command rake db:seed is executed
 ```
 
-***APIs Structure***
+## APIs Structure ##
 
 Proper format of args::
 
@@ -54,7 +54,7 @@ Proper format of args::
  status: '<status_code>'
  ```
 
-***APIs Exposed***
+## APIs Exposed ##
 
 **POST 'users/signup'**
 
