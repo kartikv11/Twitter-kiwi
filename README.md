@@ -1,4 +1,4 @@
-# Twitter-kiwi #
+# Twitter-kiwi ![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)
 
 (Formatted README file can be read here: https://gist.github.com/kattybilly/27bfd6a4bb6939aac9bdbba881121aec)
 
@@ -13,7 +13,9 @@ application up and running.
  * rake db:migrate
  * rails s (this will run on port 3000)
 
-* Uses sqlite3 which ships as default database with Rails, you can easily migrate to a DB of your choice from Step1 config. As intension here was to have a clean/extensible Backend Code and DB choice wasn't a priority.
+* DB Usage:
+ * sqlite3 for development, test which ships as default database with Rails.
+ * PG for production
 
 ## Projects Structure ##
 ```
