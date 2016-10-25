@@ -1,4 +1,4 @@
-# Twitter-kiwi #
+# Twitter-kiwi ![Heroku](https://heroku-badge.herokuapp.com/?app=heroku-badge)
 
 (Formatted README file can be read here: https://gist.github.com/kattybilly/27bfd6a4bb6939aac9bdbba881121aec)
 
